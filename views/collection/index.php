@@ -206,7 +206,7 @@ currentFields.push("<?php h(addslashes($field));?>");
 					</div>
 
 					<!-- display record -->
-					<div id="text_<?php h($index);?>" style="max-height:150px;overflow-y:hidden;width:99%;" ondblclick="expandText('<?php h($index);?>');" class="record_row" record_id="<?php if(isset($row["_id"])){h(rock_id_string($row["_id"]));} ?>" record_index="<?php h($index); ?>">
+					<div id="text_<?php h($index);?>" style="overflow-y:hidden;width:99%;" ondblclick="expandText('<?php h($index);?>');" class="record_row" record_id="<?php if(isset($row["_id"])){h(rock_id_string($row["_id"]));} ?>" record_index="<?php h($index); ?>" expand="true">
 
 						<?php h($row["data"]); ?>
 					</div>

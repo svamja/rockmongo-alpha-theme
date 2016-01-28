@@ -13,6 +13,8 @@
 <script language="javascript">
 $(function () {
 	$(document).click(window.parent.hideMenus);
+        var fontName = 'Inconsolata';
+        $("head").append("<link href='https://fonts.googleapis.com/css?family=" + fontName + "' rel='stylesheet' type='text/css'>");
 	if ($("textarea").length > 0) {
 		$("textarea").tabby();
 	}
