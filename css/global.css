@@ -61,3 +61,11 @@ img {border:0}
 .top-page select { height:18px; background-color:#ccc; border:0 }
 .top-page .left {float:left}
 .top-page .right {float:right}
+
+/** command textarea **/
+.command-textarea {
+    color: blue;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: auto;
+}

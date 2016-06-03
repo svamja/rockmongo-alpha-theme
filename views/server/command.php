@@ -9,7 +9,7 @@
 <?php endif;?>
 
 <form method="post">
-<textarea name="command" rows="5" cols="60"><?php h(x("command"));?></textarea>
+<textarea name="command" rows="30" cols="100" class="command-textarea" wrap="soft"><?php h(x("command"));?></textarea>
 <br/>
 <?php hm("db"); ?>:
 <select name="db">
